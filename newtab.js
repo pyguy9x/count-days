@@ -6,7 +6,7 @@ const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 const daysBetween = (date) => Math.abs(new Date() - new Date(date)) / (1000 * 60 * 60 * 24);
 
 // demngay = daysBetween(Date(), '2024-12-31')
-demngaytohientai = Math.round(daysBetween('2024-07-31')) // DEADLINE HERE
+demngaytohientai = Math.round(daysBetween('2024-07-31')); // DEADLINE HERE
 
 document.getElementById('days').textContent  = daysDiff;
 // document.getElementById('info2').textContent = "(from "+startDate+")";
